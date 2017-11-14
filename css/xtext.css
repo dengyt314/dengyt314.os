@@ -1,0 +1,282 @@
+.foot{
+	height:100%;
+	background:#fff;
+}
+.foot header{
+    background: #fe524e;
+}
+.foot header h4{
+    color: #fff;
+    letter-spacing: .16rem;
+    font-size: .22rem;
+    text-align: center;
+    padding: .1rem 0;
+    margin: 0 2rem;
+    position: relative;
+}
+.foot header h4 a{
+    position: absolute;
+    left: -1.68rem;
+    color: #fff;
+    font-weight: 600;
+}
+.foot>p{
+    padding: .1rem .3rem;
+    font-size: .12rem;
+    overflow: hidden;
+    vertical-align: middle;
+    text-align: left;
+    line-height: 0.222rem;
+    height: 0.222rem;
+}
+.foot .desk_id{
+     background: #fafafa;   
+}
+.foot .desk_id p{
+    padding: 0.06rem .3rem;
+    font-size: .16rem;
+    overflow: hidden;
+    line-height: 0.34rem;
+    height: 0.34rem;
+}
+.foot .desk_id p span{
+float: right;
+    background: #1075FF;
+    font-weight: 600;
+    font-size: .18rem;
+    vertical-align: middle;
+    margin-right: 0.222rem;
+    border-radius: 50%;
+    display: block;
+    width: 0.28rem;
+    height: 0.28rem;
+    line-height: 0.28rem;
+    text-align: center;
+    color: #fff;
+}
+.foot>ul{
+	padding:0 1.2rem;
+	font-size:.2rem;
+}
+.foot>ul li{
+	font-size:.18rem;
+	display:block;
+	overflow:hidden;
+    position:relative;
+}
+.foot>ul li button{
+    position: absolute;
+    top: 0.04rem;
+    right: .2rem;
+    font-size: .16rem;
+    background: none;
+    outline: none;
+    color: #999;
+    border: 0.01rem solid #ddd;
+    padding: 0.04rem 0.1rem;
+    border-radius: 0.04rem;
+}
+.foot ul:frist-child(1) li{
+    font-size: 0.2444rem;
+    font-weight: 600;	
+}
+.foot ul li:last-child span:nth-of-type(2){
+	padding:0;
+}
+.foot>ul li span{
+	color:#333;
+	display:block;
+	float:left;
+	width:25%;
+	padding:0.08rem 0;
+	border-bottom:1px solid #ccc;
+}
+.foot>ul li span:nth-child(1){
+	width:50%;
+}
+.foot>ul li span i{
+	font-style:normal;
+	display:inline-block;
+	width:.2rem;
+	height:.2rem;
+	border:1px solid #ccc;
+	text-align:center;
+	line-height:.2rem;
+}
+.foot>ul li span i:nth-child(2){
+	border:0 none;
+	margin:0 .1rem;
+}
+.foot>ul li span input{
+	outline:none;
+    width: 0.88rem;
+    outline: none;
+    text-align: center;
+    border: 0 none;
+    height: 0.358rem;
+    font-size: 0.2rem;
+    margin: 0.02rem 0;
+    background: #f8f8f8;	
+}
+.foot ul li:nth-of-type(1){
+    font-size: 0.14rem;
+}
+.foot>div:nth-child(4){
+    position:relative;
+    padding: .1rem .3rem;
+    font-size: .22rem;
+    text-align: left;
+    line-height: 0.422rem;
+    height: 0.422rem;
+	font-size:.2rem;
+	color:#f00;
+	font-weight:600;
+}
+.foot>div:nth-child(4) .add_foot{
+    font-weight: normal;
+    color: #333;
+    border: 0.01rem solid #e8e8e8;
+    padding: 0.06rem 0.1rem;
+    font-size: 0.166rem;
+    border-radius: 0.05rem;
+    background: #fafafa;   
+}
+.foot>div:nth-child(4) input{
+    display: inline-block;
+    font-size: 0.14rem;
+    width: 1.98rem;
+    height: 0.4rem;
+    -webkit-appearance: none;
+    background-color: #fff;
+    background-image: none;
+    border-radius: 0.04rem;
+    border: 1px solid #d8dce5;
+    box-sizing: border-box;
+    line-height: 1;
+    outline: none;
+    transition: border-color .2s cubic-bezier(.645,.045,.355,1);
+    background: #fafafa;
+    color: #555;
+    margin-left: 0.2rem;
+    padding-left: 0.1rem;
+}
+.foot>div:nth-child(4) ul{
+    margin-top: 0.02rem;
+    width: 1.96rem;
+    position: absolute;
+    box-sizing: border-box;
+    left: 1.18rem;
+    background: #fafafa;
+    border: 1px solid #d8dce5;
+    top: 0.56rem;
+    border-radius: 0.05rem 0.05rem 0 0;
+}
+.foot>div:nth-child(4) ul li{
+    padding-left: .1rem;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 0.14rem;
+    border-bottom: 0.01rem solid #fff;
+    height: 0.288rem;
+    line-height: 0.288rem;    
+}
+.foot>div:nth-child(4) ul li span{
+    font-size: 0.152rem;    
+}
+.foot>div:nth-child(4) ul li span:first-child{
+    color:#333;
+    font-weight:100;
+}
+.foot>div:nth-child(4) ul li span:last-child{
+    color:#333;
+    float:right;
+    margin-right:.1rem;
+    font-weight:100;
+    color:#f00;
+}
+.foot>div:nth-child(4) button{
+    position:absolute;
+    right:2.3rem;
+    border:0 none;
+    outline: none;
+    background: none;
+    font-size: .2rem;
+    line-height: .4rem;
+    color:#58bc58;
+}
+.foot>h5{
+    text-align: right;
+    background: #fafafa;
+    margin-top: 0.1rem;
+    font-size: 0.2rem;
+}
+.foot>h5 span{
+    color: #f33;
+    font-size: .26rem;
+    font-weight: 600;
+    padding: 0 1.22rem;
+}
+.foot>p:nth-child(6){
+    float: left;
+    padding-bottom: .4rem;
+}
+.foot>p:nth-child(6) span{
+    font-size: 0.126rem;
+    color: #666;
+    padding-left: 0.1rem;
+    font-style: italic;
+}
+
+.foot .start{
+	background:#1075FF;
+    float: right;
+    font-size: .22rem;
+    padding: .08rem .2rem;
+    color: #fff;
+    outline: none;
+    border: 0 none;
+    margin-right: .3rem;
+    box-shadow: 0.04rem 0.04rem 0.08rem #333;
+    border-radius: 0.04rem;
+    margin-top: 0.2rem;    
+}
+.foot .over{
+	background:#CD0000;
+}
+.foot .conf{
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+	position:fixed;
+	width:40%;
+	height:24%;
+	background:#f2f2f2;
+}
+.foot h4{
+	color: #fe524e;
+    letter-spacing: .16rem;
+    font-size: .28rem;
+    text-align: center;
+    padding: .1rem 0;
+}
+.foot .conf div{
+	margin-top:.5rem;
+	display:flex;
+	justify-content:space-between;
+	padding:0 .3rem;
+}
+.foot .conf span{
+	font-size:.18rem;
+	border:1px solid #ccc;
+	padding:.14rem .26rem;
+	font-weight:600;
+    color:#fff;
+    font-weight:600;
+    border-radius: .08rem;
+}
+.foot .conf span:first-child{
+    background: #58bc58;
+}
+.foot .conf span:last-child{
+    background: #f00;
+}
